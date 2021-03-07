@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.home.bean.MongodbDemo;
 
-@RequestMapping(value = "/demoApi")
+@RequestMapping(value = "/demo1003")
 public interface UserController {
 	
 	@GetMapping(value = "/users")
