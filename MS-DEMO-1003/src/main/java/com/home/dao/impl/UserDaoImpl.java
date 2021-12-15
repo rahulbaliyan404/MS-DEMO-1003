@@ -30,7 +30,7 @@ public class UserDaoImpl implements UserDao {
 
 	@Override
 	public Optional<MongodbDemo> getUserById(int id) {
-		// TODO Auto-generated method stub
+		
 		return mySqlUserRepository.findById(id);
 	}
 }
